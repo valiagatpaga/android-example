@@ -1,5 +1,14 @@
-<manifest package="io.jitpack.api">
-
+<manifest package="io.jitpack.api"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        android:required="false" />
     <application />
 
 </manifest>
